@@ -2,11 +2,15 @@
 #include "ui_MainWindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
-  QMainWindow(parent),
+  QMainWindow(parent,
+              Qt::FramelessWindowHint),
   m_Ui(new Ui::MainWindow)
 {
+  // Qt ui setup
   m_Ui->setupUi(this);
-  setWindowTitle("Pixel Misurement");
+
+  // Make transparent
+  setAttribute(Qt::WA_TranslucentBackground);
 }
 
 MainWindow::~MainWindow()

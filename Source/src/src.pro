@@ -14,7 +14,7 @@ QT       += core gui sql network script
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-CONFIG   += console debug
+CONFIG   += debug
 
 MOC_DIR            = build
 RCC_DIR            = build
