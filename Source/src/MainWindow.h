@@ -18,6 +18,9 @@ class MainWindow : public QMainWindow
   protected:
     virtual void resizeEvent(QResizeEvent *);
 
+  private slots:
+    void on_m_QPushButton_1_clicked();
+
   private:
     Ui::MainWindow *m_Ui;
 

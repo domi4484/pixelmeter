@@ -22,9 +22,11 @@ UI_DIR             = build
 !win32:OBJECTS_DIR = build
 
 SOURCES += main.cpp\
-        MainWindow.cpp
+        MainWindow.cpp \
+    Body.cpp
 
-HEADERS  += MainWindow.h
+HEADERS  += MainWindow.h \
+    Body.h
 
 FORMS    += MainWindow.ui
 
