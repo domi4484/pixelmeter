@@ -23,10 +23,12 @@ UI_DIR             = build
 
 SOURCES += main.cpp\
         MainWindow.cpp \
-    Body.cpp
+    Body.cpp \
+    Slider.cpp
 
 HEADERS  += MainWindow.h \
-    Body.h
+    Body.h \
+    Slider.h
 
 FORMS    += MainWindow.ui
 

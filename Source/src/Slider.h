@@ -4,35 +4,24 @@
  *                                                                 *
 ********************************************************************/
 
-#ifndef BODY_H
-#define BODY_H
+#ifndef SLIDER_H
+#define SLIDER_H
 
 // Qt includes -----------------------------
 #include <QWidget>
 
-class Body : public QWidget
+class Slider : public QWidget
 {
     Q_OBJECT
 
   public:
-
-    explicit Body(QWidget *parent = 0);
-    virtual ~Body();
-
-  protected:
-
-    virtual void mousePressEvent(QMouseEvent *event);
-    virtual void mouseMoveEvent(QMouseEvent *event);
-    virtual void mouseReleaseEvent(QMouseEvent *);
+    explicit Slider(QWidget *parent = 0);
+    virtual ~Slider();
 
   signals:
 
-    void signal_moveRequest(const QPoint &pos);
-
-  public:
-
-    QPoint m_ClickPos;
+  public slots:
 
 };
 
-#endif // BODY_H
+#endif // SLIDER_H
