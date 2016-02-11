@@ -23,12 +23,12 @@ MainWindow::MainWindow(QWidget *parent) :
   m_Ui->setupUi(this);
 
   // Make transparent
-//  setAttribute(Qt::WA_TranslucentBackground);
+  setAttribute(Qt::WA_TranslucentBackground);
 
   m_Ruler = new Ruler;
 
   QMainWindow::setCentralWidget(m_Ruler);
-  QMainWindow::resize(800, 70);
+  QMainWindow::resize(880, 70);
 
   connect(m_Ruler,
           SIGNAL(moveWindow(QPoint)),
