@@ -24,11 +24,14 @@ UI_DIR             = build
 SOURCES += main.cpp\
         MainWindow.cpp \
     Body.cpp \
-    Slider.cpp
+    Slider.cpp \
+    Ruler.cpp
 
 HEADERS  += MainWindow.h \
     Body.h \
-    Slider.h
+    Slider.h \
+    Ruler.h
 
-FORMS    += MainWindow.ui
+FORMS    += MainWindow.ui \
+    Ruler.ui
 
