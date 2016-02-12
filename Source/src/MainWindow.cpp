@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget *parent) :
   m_Ruler = new Ruler;
 
   QMainWindow::setCentralWidget(m_Ruler);
-  QMainWindow::resize(880, 70);
+  QMainWindow::resize(880, 65);
 
   connect(m_Ruler,
           SIGNAL(moveWindow(QPoint)),

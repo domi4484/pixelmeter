@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>880</width>
-    <height>70</height>
+    <height>65</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -129,7 +129,7 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -153,7 +153,7 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -177,7 +177,7 @@
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -201,7 +201,7 @@
    <property name="geometry">
     <rect>
      <x>380</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -225,7 +225,7 @@
    <property name="geometry">
     <rect>
      <x>480</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -249,7 +249,7 @@
    <property name="geometry">
     <rect>
      <x>580</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -273,7 +273,7 @@
    <property name="geometry">
     <rect>
      <x>680</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -299,7 +299,7 @@
      <x>0</x>
      <y>0</y>
      <width>880</width>
-     <height>70</height>
+     <height>65</height>
     </rect>
    </property>
    <property name="text">
@@ -332,7 +332,7 @@
    <property name="geometry">
     <rect>
      <x>780</x>
-     <y>28</y>
+     <y>26</y>
      <width>40</width>
      <height>13</height>
     </rect>
@@ -356,7 +356,7 @@
    <property name="geometry">
     <rect>
      <x>99</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -372,7 +372,7 @@
    <property name="geometry">
     <rect>
      <x>199</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -388,7 +388,7 @@
    <property name="geometry">
     <rect>
      <x>299</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -404,7 +404,7 @@
    <property name="geometry">
     <rect>
      <x>399</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -420,7 +420,7 @@
    <property name="geometry">
     <rect>
      <x>499</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -436,7 +436,7 @@
    <property name="geometry">
     <rect>
      <x>599</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -452,7 +452,7 @@
    <property name="geometry">
     <rect>
      <x>699</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -468,7 +468,7 @@
    <property name="geometry">
     <rect>
      <x>799</x>
-     <y>50</y>
+     <y>45</y>
      <width>3</width>
      <height>20</height>
     </rect>
@@ -1096,6 +1096,1854 @@
     </property>
    </widget>
   </widget>
+  <widget class="QWidget" name="widget_400" native="true">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>0</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_24">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_34">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_44">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_54">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>0</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_64">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_74">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_84">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_94">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_14">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_500" native="true">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>0</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_25">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_35">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_45">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_55">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>0</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_65">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_75">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_85">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_95">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_15">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_600" native="true">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>0</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_26">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_36">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_46">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_56">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>0</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_66">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_76">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_86">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_96">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_16">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_700" native="true">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>0</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_27">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_37">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_47">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_57">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>0</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_67">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_77">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_87">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_97">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_17">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>0</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_28">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_38">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_48">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_58">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_68">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_78">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_88">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_98">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_18">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_29">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_39">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_49">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_59">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_69">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_79">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_89">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_99">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_19">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_101">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_102">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_103">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_104">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_105">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_106">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_107">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_108">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_109">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_110">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_111">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_112">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_113">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_114">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_115">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_116">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_117">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_118">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_119">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_120">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_121">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_122">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_123">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_124">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_125">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_126">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_127">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_128">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_129">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_130">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_131">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_132">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_133">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_134">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_135">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_136">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_137">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_138">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_139">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_140">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_141">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_142">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_143">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_144">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_145">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_100_8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>45</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="Line" name="line_146">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_147">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_148">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_149">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>5</y>
+      <width>3</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_150">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_151">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_152">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_153">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_154">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>3</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
   <zorder>label_8</zorder>
   <zorder>line_100</zorder>
   <zorder>line_200</zorder>
@@ -1125,6 +2973,18 @@
   <zorder>widget_100</zorder>
   <zorder>widget_200</zorder>
   <zorder>widget_300</zorder>
+  <zorder>widget_400</zorder>
+  <zorder>widget_500</zorder>
+  <zorder>widget_600</zorder>
+  <zorder>widget_700</zorder>
+  <zorder>widget_100_1</zorder>
+  <zorder>widget_100_2</zorder>
+  <zorder>widget_100_3</zorder>
+  <zorder>widget_100_4</zorder>
+  <zorder>widget_100_5</zorder>
+  <zorder>widget_100_6</zorder>
+  <zorder>widget_100_7</zorder>
+  <zorder>widget_100_8</zorder>
  </widget>
  <resources/>
  <connections/>
