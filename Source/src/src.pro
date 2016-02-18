@@ -25,12 +25,14 @@ SOURCES += main.cpp\
         MainWindow.cpp \
     Body.cpp \
     Slider.cpp \
-    Ruler.cpp
+    Ruler.cpp \
+    RulerGraphicsView.cpp
 
 HEADERS  += MainWindow.h \
     Body.h \
     Slider.h \
-    Ruler.h
+    Ruler.h \
+    RulerGraphicsView.h
 
 FORMS    += MainWindow.ui \
     Ruler.ui

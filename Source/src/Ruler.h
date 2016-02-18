@@ -17,12 +17,16 @@ public:
 
 signals:
 
-  void moveWindow(QPoint);
+  void signal_MoveWindow(QPoint);
+  void signal_Rotate();
 
 protected:
 
   virtual void mousePressEvent(QMouseEvent *event);
   virtual void mouseMoveEvent(QMouseEvent *event);
+
+private slots:
+  void on_m_QToolButton_Rotate_clicked();
 
 private:
 

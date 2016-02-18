@@ -3120,6 +3120,19 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QToolButton" name="m_QToolButton_Rotate">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
   <zorder>label_8</zorder>
   <zorder>line_100</zorder>
   <zorder>line_200</zorder>
@@ -3169,6 +3182,7 @@
   <zorder>label_15</zorder>
   <zorder>label_16</zorder>
   <zorder>label_17</zorder>
+  <zorder>m_QToolButton_Rotate</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -7,13 +7,14 @@
 // Forward declarations --------------------
 namespace Ui { class MainWindow; }
 class Body;
-class Ruler;
+class RulerGraphicsView;
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
     
 public:
+
   explicit MainWindow(QWidget *parent = 0);
   ~MainWindow();
     
@@ -31,7 +32,7 @@ private:
 
   Body *m_Body;
 
-  Ruler *m_Ruler;
+  RulerGraphicsView *m_RulerGraphicsView;
 
 };
 

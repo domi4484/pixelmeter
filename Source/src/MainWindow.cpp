@@ -6,6 +6,7 @@
 // Project includes ------------------------
 #include "Body.h"
 #include "Ruler.h"
+#include "RulerGraphicsView.h"
 
 // Qt includes -----------------------------
 #include <QDebug>
@@ -17,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
               Qt::FramelessWindowHint),
   m_Ui(new Ui::MainWindow),
   m_Body(NULL),
-  m_Ruler(NULL)
+  m_RulerGraphicsView(NULL)
 {
   // Qt ui setup
   m_Ui->setupUi(this);
@@ -25,13 +26,14 @@ MainWindow::MainWindow(QWidget *parent) :
   // Make transparent
   setAttribute(Qt::WA_TranslucentBackground);
 
-  m_Ruler = new Ruler;
+  m_RulerGraphicsView = new RulerGraphicsView;
 
-  QMainWindow::setCentralWidget(m_Ruler);
-  QMainWindow::resize(880, 65);
+  QMainWindow::setCentralWidget(m_RulerGraphicsView);
+  QMainWindow::resize(2*qMax(m_RulerGraphicsView->ruler()->height(), m_RulerGraphicsView->ruler()->width()),
+                      2*qMax(m_RulerGraphicsView->ruler()->height(), m_RulerGraphicsView->ruler()->width()));
 
-  connect(m_Ruler,
-          SIGNAL(moveWindow(QPoint)),
+  connect(m_RulerGraphicsView->ruler(),
+          SIGNAL(signal_MoveWindow(QPoint)),
           SLOT(slot_MoveWindow(QPoint)));
 
 }
@@ -40,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
-  delete m_Ruler;
+  delete m_RulerGraphicsView;
 
   delete m_Ui;
 }
