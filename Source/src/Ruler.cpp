@@ -4,36 +4,44 @@
 #include "ui_Ruler.h"
 
 // Qt includes -----------------------------
+#include <QDebug>
 #include <QMouseEvent>
 
 //-----------------------------------------------------------------------------------------------------------------------------
 
 Ruler::Ruler(QWidget *parent) :
   QWidget(parent),
-  ui(new Ui::Ruler)
+  m_Ui(new Ui::Ruler),
+  m_QPixmap(":/images/ruler/Ruler.png")
 {
-  ui->setupUi(this);
+  m_Ui->setupUi(this);
+
+  m_Ui->m_QLabel_Ruler->setPixmap(m_QPixmap);
+
+
+  QWidget::setMinimumSize(m_QPixmap.size());
+  QWidget::resize(m_QPixmap.size());
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------
 
 Ruler::~Ruler()
 {
-  delete ui;
+  delete m_Ui;
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------
 
 void Ruler::mousePressEvent(QMouseEvent *event)
 {
-  m_QPoint_LastMousePosition = event->pos();
+  m_QPoint_PressEventRelativePosition = event->pos();
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------
 
-void Ruler::mouseMoveEvent(QMouseEvent *event)
+void Ruler::mouseMoveEvent(QMouseEvent *)
 {
-  emit signal_MoveWindow(event->globalPos() - m_QPoint_LastMousePosition);
+  emit signal_MoveWindow(QCursor::pos() - m_QPoint_PressEventRelativePosition);
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------

@@ -23,16 +23,19 @@ signals:
 protected:
 
   virtual void mousePressEvent(QMouseEvent *event);
-  virtual void mouseMoveEvent(QMouseEvent *event);
+  virtual void mouseMoveEvent(QMouseEvent *);
 
 private slots:
   void on_m_QToolButton_Rotate_clicked();
 
 private:
 
-  Ui::Ruler *ui;
+  Ui::Ruler *m_Ui;
 
-  QPoint m_QPoint_LastMousePosition;
+  QPixmap m_QPixmap;
+
+  QPoint m_QPoint_PressEventRelativePosition;
+
 };
 
 #endif // RULER_H

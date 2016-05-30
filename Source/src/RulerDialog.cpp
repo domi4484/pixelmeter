@@ -4,24 +4,24 @@
 
 // Project includes ------------------------
 #include "Ruler.h"
-#include "RulerGraphicsView.h"
+
+#include <QDebug>
 
 //-----------------------------------------------------------------------------------------------------------------------------
 
 RulerDialog::RulerDialog(QWidget *parent) :
   QDialog(parent,
           Qt::FramelessWindowHint),
-  m_RulerGraphicsView(NULL)
+  m_Ruler(NULL)
 {
   // Make transparent
   setAttribute(Qt::WA_TranslucentBackground);
 
-  m_RulerGraphicsView = new RulerGraphicsView(this);
+  m_Ruler = new Ruler(this);
 
-  QDialog::resize(2*qMax(m_RulerGraphicsView->ruler()->height(), m_RulerGraphicsView->ruler()->width()),
-                      2*qMax(m_RulerGraphicsView->ruler()->height(), m_RulerGraphicsView->ruler()->width()));
+//  QDialog::resize(m_Ruler->imageSize());
 
-  connect(m_RulerGraphicsView->ruler(),
+  connect(m_Ruler,
           SIGNAL(signal_MoveWindow(QPoint)),
           SLOT(slot_MoveWindow(QPoint)));
 }
@@ -30,7 +30,7 @@ RulerDialog::RulerDialog(QWidget *parent) :
 
 RulerDialog::~RulerDialog()
 {
-  delete m_RulerGraphicsView;
+  delete m_Ruler;
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------

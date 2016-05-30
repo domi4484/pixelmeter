@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images/ruler">
+        <file>Ruler.png</file>
+    </qresource>
+</RCC>

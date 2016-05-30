@@ -13,7 +13,8 @@ RulerGraphicsView::RulerGraphicsView(QWidget *parent) :
   QGraphicsView(parent),
   m_QGraphicsScene(),
   m_Ruler(NULL),
-  m_QGraphicsProxyWidget_Ruler(NULL)
+  m_QGraphicsProxyWidget_Ruler(NULL),
+  m_RotationAngle(0)
 {
   m_Ruler = new Ruler();
   m_Ruler->setStyleSheet("background-color: transparent;");
@@ -55,10 +56,17 @@ RulerGraphicsView::~RulerGraphicsView()
 
 void RulerGraphicsView::slot_Ruler_Rotate()
 {
+  m_RotationAngle = m_RotationAngle + 90;
+  if(m_RotationAngle == 360)
+    m_RotationAngle = 0;
+
+
   QTransform qTransform_Rotate;
-  qTransform_Rotate.translate(m_Ruler->height(),
-                              0.0);
-  qTransform_Rotate.rotate(90);
+//  qTransform_Rotate.translate(m_Ruler->height(),
+//                              0.0);
+  qTransform_Rotate.rotate(m_RotationAngle);
   m_QGraphicsProxyWidget_Ruler->setTransformOriginPoint(0.0, 0.0);
   m_QGraphicsProxyWidget_Ruler->setTransform(qTransform_Rotate);
+
+  m_Ruler->move(20.0, 20.0);
 }

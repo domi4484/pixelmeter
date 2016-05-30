@@ -5,7 +5,7 @@
 #include <QDialog>
 
 // Forward declarations --------------------
-class RulerGraphicsView;
+class Ruler;
 
 class RulerDialog : public QDialog
 {
@@ -22,7 +22,7 @@ private slots:
 
 private:
 
-  RulerGraphicsView *m_RulerGraphicsView;
+  Ruler *m_Ruler;
 };
 
 #endif // RULERDIALOG_H

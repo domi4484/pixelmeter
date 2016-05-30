@@ -25,15 +25,16 @@ SOURCES += main.cpp\
     MainWindow.cpp \
     Slider.cpp \
     Ruler.cpp \
-    RulerGraphicsView.cpp \
     RulerDialog.cpp
 
 HEADERS  += MainWindow.h \
     Slider.h \
     Ruler.h \
-    RulerGraphicsView.h \
     RulerDialog.h
 
 FORMS    += MainWindow.ui \
     Ruler.ui
+
+RESOURCES += \
+    Resources/Resources.qrc
 

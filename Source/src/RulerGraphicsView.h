@@ -29,6 +29,8 @@ private:
   Ruler *m_Ruler;
   QGraphicsProxyWidget *m_QGraphicsProxyWidget_Ruler;
 
+  int m_RotationAngle;
+
 };
 
 #endif // RULERGRAPHICSVIEW_H
