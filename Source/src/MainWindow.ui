@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>654</width>
-    <height>166</height>
+    <width>107</width>
+    <height>37</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,37 +15,13 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="2">
-     <widget class="QLCDNumber" name="m_QLcdNumber_Height"/>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLabel" name="label_2">
+    <item row="0" column="0">
+     <widget class="QToolButton" name="m_QToolButton_Ruler">
       <property name="text">
-       <string>Height</string>
+       <string>Ruler</string>
       </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Width</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="2">
-     <widget class="QLCDNumber" name="m_QLcdNumber_Width"/>
-    </item>
-    <item row="0" column="0" rowspan="2">
-     <widget class="QPushButton" name="m_QPushButton_1">
-      <property name="text">
-       <string>1</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="3" rowspan="2">
-     <widget class="QPushButton" name="m_QPushButton_2">
-      <property name="text">
-       <string>2</string>
+      <property name="checkable">
+       <bool>true</bool>
       </property>
      </widget>
     </item>

@@ -6,8 +6,7 @@
 
 // Forward declarations --------------------
 namespace Ui { class MainWindow; }
-class Body;
-class RulerGraphicsView;
+class RulerDialog;
 
 class MainWindow : public QMainWindow
 {
@@ -18,22 +17,15 @@ public:
   explicit MainWindow(QWidget *parent = 0);
   ~MainWindow();
     
-protected:
-  virtual void resizeEvent(QResizeEvent *);
-
 private slots:
 
-  void slot_MoveWindow(const QPoint &point);
-
-  void on_m_QPushButton_1_clicked();
+  void on_m_QToolButton_Ruler_toggled(bool checked);
 
 private:
+
   Ui::MainWindow *m_Ui;
 
-  Body *m_Body;
-
-  RulerGraphicsView *m_RulerGraphicsView;
-
+  RulerDialog *m_RulerDialog;
 };
 
 #endif // MAINWINDOW_H

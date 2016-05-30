@@ -22,17 +22,17 @@ UI_DIR             = build
 !win32:OBJECTS_DIR = build
 
 SOURCES += main.cpp\
-        MainWindow.cpp \
-    Body.cpp \
+    MainWindow.cpp \
     Slider.cpp \
     Ruler.cpp \
-    RulerGraphicsView.cpp
+    RulerGraphicsView.cpp \
+    RulerDialog.cpp
 
 HEADERS  += MainWindow.h \
-    Body.h \
     Slider.h \
     Ruler.h \
-    RulerGraphicsView.h
+    RulerGraphicsView.h \
+    RulerDialog.h
 
 FORMS    += MainWindow.ui \
     Ruler.ui
