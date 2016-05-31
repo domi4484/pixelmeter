@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/images/ruler">
-        <file>Ruler.png</file>
+        <file>Images/Ruler.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>Icons/object-rotate-right_48x48.png</file>
     </qresource>
 </RCC>

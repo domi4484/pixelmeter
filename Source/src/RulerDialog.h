@@ -16,6 +16,8 @@ public:
   explicit RulerDialog(QWidget *parent = 0);
   ~RulerDialog();
 
+  void rotate();
+
 private slots:
 
   void slot_MoveWindow(const QPoint &point);

@@ -15,6 +15,8 @@ public:
   explicit Ruler(QWidget *parent = 0);
   ~Ruler();
 
+  void rotate();
+
 signals:
 
   void signal_MoveWindow(QPoint);
@@ -35,6 +37,8 @@ private:
   QPixmap m_QPixmap;
 
   QPoint m_QPoint_PressEventRelativePosition;
+
+  int m_Angle;
 
 };
 

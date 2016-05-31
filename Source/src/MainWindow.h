@@ -21,6 +21,8 @@ private slots:
 
   void on_m_QToolButton_Ruler_toggled(bool checked);
 
+  void on_m_QToolButton_Ruler_Rotate_clicked();
+
 private:
 
   Ui::MainWindow *m_Ui;

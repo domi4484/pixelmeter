@@ -32,7 +32,6 @@ MainWindow::~MainWindow()
 
 //-----------------------------------------------------------------------------------------------------------------------------
 
-
 void MainWindow::on_m_QToolButton_Ruler_toggled(bool checked)
 {
   if(checked)
@@ -43,4 +42,11 @@ void MainWindow::on_m_QToolButton_Ruler_toggled(bool checked)
   {
     m_RulerDialog->hide();
   }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+void MainWindow::on_m_QToolButton_Ruler_Rotate_clicked()
+{
+  m_RulerDialog->rotate();
 }
